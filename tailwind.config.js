@@ -7,6 +7,15 @@ module.exports = {
   ],
   theme: {
     extend: {
+      colors:{
+        brown:{
+          500:"#f59e0b",
+          600:"#d97706",
+          700:"#b45309",
+          800:"#92400e",
+          900:"#78350f",
+        },
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
