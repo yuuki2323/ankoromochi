@@ -2,6 +2,9 @@ import Image from "next/image";
 import React from "react";
 import logo from "public/logo2.png";
 import Link from "next/link";
+
+import SumahoMenu from "./topUI/SumahoMenu";
+
 const Header = () => {
   const navi = [
     { href: "#", nav: "メニューリスト" ,en:"menu list" },
@@ -13,13 +16,15 @@ const Header = () => {
 
   return (
     <header className="container mx-auto my-4 ">
-      {/* パソコンメニュー */}
-      <div className="md:flex md:justify-between md:items-center mx-12 lg:mx-24 xl:mx-28">
-        <h1 className="w-24">
+      
+      <div className="flex justify-between items-center mx-12 lg:mx-24 xl:mx-28">
+        <h1 className="w-16 md:w-24">
           <Image src={logo} alt="logo" />
         </h1>
-        <nav>
-          <ul className="md:flex md:justify-between md:items-center md:gap-8">
+
+        {/* パソコンメニュー */}
+        <nav className="hidden md:block">
+          <ul className=" md:flex md:justify-between md:items-center md:gap-8">
             {navi.map((navi) => {
               return (
                 <li key={navi.nav}>
@@ -32,8 +37,11 @@ const Header = () => {
             })}
           </ul>
         </nav>
+
+        {/* スマホメニュー */}
+        <SumahoMenu/>
+      
       </div>
-      {/* スマホメニュー */}
     </header>
   );
 };

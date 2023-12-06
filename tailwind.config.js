@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {
+      translate:{
+        "minus":"200%"
+      },
       colors:{
         brown:{
           500:"#f59e0b",
