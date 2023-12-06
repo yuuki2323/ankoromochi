@@ -23,18 +23,18 @@ const SumahoMenu = () => {
   return (
     <>
       <nav className="md:hidden">
-        <button onClick={handleMenu}>
+        <button onClick={handleMenu} className={`fixed top-6 right-12 `}>
           <FiMenu size={52} />
         </button>
         <div
           className={
             isOpen
-              ? "fixed top-0 left-0 opacity-0 transition-all duration-200 ease-linear "
-              : " fixed top-0 left-0 opacity-100 transition-all duration-200 ease-linear bg-white w-screen h-screen"
+              ? "fixed top-0 left-0 opacity-0 transition-all duration-200 ease-linear invisible"
+              : " fixed top-0 left-0 opacity-100 transition-all duration-200 ease-linear bg-white w-screen h-screen visible"
           }
         >
-          <button className="fixed top-6 right-12" onClick={handleMenu}>
-            <RxCross2 size={60} />
+          <button className={`fixed top-6 right-12 `} onClick={handleMenu}>
+            <RxCross2 size={52} />
           </button>
 
           <div className=" my-8 flex flex-col items-center">

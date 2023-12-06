@@ -17,19 +17,19 @@ const Header = () => {
   return (
     <header className="container mx-auto my-4 ">
       
-      <div className="flex justify-between items-center mx-12 lg:mx-24 xl:mx-28">
-        <h1 className="w-16 md:w-24">
+      <div className="flex justify-between items-center mx-12 md:mx-12 lg:mx-24 xl:mx-28 gap-4">
+        <h1 className="w-16 md:w-24 ">
           <Image src={logo} alt="logo" />
         </h1>
 
         {/* パソコンメニュー */}
         <nav className="hidden md:block">
-          <ul className=" md:flex md:justify-between md:items-center md:gap-8">
+          <ul className=" md:flex md:justify-between md:items-center md:gap-8 lg:gap-12">
             {navi.map((navi) => {
               return (
                 <li key={navi.nav}>
                   <Link href={navi.href} className=" py-4  flex flex-col items-center">
-                    <p className=" font-semibold text-brown-800 text-base">{navi.nav}</p>
+                    <p className=" font-semibold text-brown-800 text-sm lg:text-base xl:text-lg">{navi.nav}</p>
                     <p className=" font-light text-sm text-brown-500">{navi.en}</p>
                   </Link>
                 </li>
