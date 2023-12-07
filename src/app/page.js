@@ -5,6 +5,8 @@ import TopPhoto from "./toppageCpmponent/TopPhoto";
 import Feature from "./toppageCpmponent/Feature";
 import MenuList from "./toppageCpmponent/MenuList";
 import Info from "./toppageCpmponent/Info";
+import Reservation from "./toppageCpmponent/Reservation";
+import SalonFooter from "./toppageCpmponent/SalonFooter";
 
 export default function Home() {
   return (
@@ -15,6 +17,8 @@ export default function Home() {
         <Info />
         <Feature />
         <MenuList />
+        <Reservation/>
+        <SalonFooter/>
       </main>
       <Footer />
     </>
