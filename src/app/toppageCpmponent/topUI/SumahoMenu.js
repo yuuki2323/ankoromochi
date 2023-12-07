@@ -29,7 +29,7 @@ const SumahoMenu = () => {
         <div
           className={
             isOpen
-              ? "fixed top-0 left-0 opacity-0 transition-all duration-200 ease-linear invisible"
+              ? "fixed top-0 left-0 opacity-0 transition-all duration-200 ease-linear invisible w-screen h-screen"
               : " fixed top-0 left-0 opacity-100 transition-all duration-200 ease-linear bg-white w-screen h-screen visible"
           }
         >
@@ -48,7 +48,7 @@ const SumahoMenu = () => {
                 <li key={navi.nav}>
                   <Link
                     href={navi.href}
-                    className={isOpen ? "flex flex-col items-center w-screen  cursor-default " :"py-4  flex flex-col items-center w-screen "}
+                    className="py-4 flex flex-col items-center w-screen  "
                     onClick={handleMenu}
                   >
                     <p className=" font-semibold text-brown-800 text-base">
