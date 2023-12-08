@@ -15,8 +15,8 @@ const SalonFooter = () => {
           プライベートサロン(完全個室・予約制)
         </p>
       </div>
-      <div className="flex flex-col  items-center">
-        <address>
+      <div className="flex flex-col  w-[480px]">
+        <div>
           <p>
             〒651-0088
             <br />
@@ -43,7 +43,12 @@ const SalonFooter = () => {
               </span>
             </p>
           </div>
-        </address>
+        </div>
+        <div className="mt-4 border-t border-black">
+          <p>
+            ご予約はネット予約が簡単でお得です。公式LINE・お電話でのご予約も承っております。<br/>お気軽にお問い合わせください。
+          </p>
+        </div>
       </div>
     </div>
   );
