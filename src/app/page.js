@@ -7,7 +7,7 @@ import MenuList from "./toppageCpmponent/MenuList";
 import Info from "./toppageCpmponent/Info";
 import Reservation from "./toppageCpmponent/Reservation";
 import SalonFooter from "./toppageCpmponent/SalonFooter";
-export const runtime ="edge";
+
 export default function Home() {
   return (
     <>
