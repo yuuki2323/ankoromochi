@@ -1,10 +1,13 @@
 import React from "react";
 import logo from "public/logo2.png";
 import Image from "next/image";
+import Link from "next/link";
+import insta from "/Users/lumi/Downloads/01 Static Glyph/01 Gradient Glyph/Instagram_Glyph_Gradient.png";
+import line from "public/LINE_APP_iOS.png"
 
 const SalonFooter = () => {
   return (
-    <div className=" bg-orange-100 w-screen  py-8 md:py-14 lg:py-20 px-12 md:px-12 lg:px-24 xl:px-28 flex justify-center">
+    <div className=" bg-orange-100 w-screen  py-6 md:py-8 lg:py-12 px-12 md:px-12 lg:px-24 xl:px-28 flex justify-center gap-24">
       <div className="flex flex-col  items-center">
         <h1 className="w-16 md:w-24 ">
           <Image src={logo} alt="logo" />
@@ -46,11 +49,30 @@ const SalonFooter = () => {
         </div>
         <div className="mt-4 border-t border-black">
           <p>
-            ご予約はネット予約が簡単でお得です。公式LINE・お電話でのご予約も承っております。<br/>お気軽にお問い合わせください。
+            ご予約はネット予約が簡単でお得です。公式LINE・お電話でのご予約も承っております。
+            <br />
+            お気軽にお問い合わせください。
           </p>
+        </div>
+        <div className="flex gap-4">
+          <Link
+            href="https://instagram.com/ancoromochi.iyashi?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr"
+            target="_blank"
+            rel="noopener"
+          >
+            <Image src={insta} width={48} height={48} alt="insta" />
+          </Link>
+          <Link
+            href="https://page.line.me/ancoromochi_iyashi"
+            target="_blank"
+            rel="noopener"
+          >
+            <Image src={line} width={48} height={48} alt="line" />
+          </Link>
         </div>
       </div>
     </div>
+    
   );
 };
 
