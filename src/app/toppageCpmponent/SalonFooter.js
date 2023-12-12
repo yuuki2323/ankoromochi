@@ -2,7 +2,7 @@ import React from "react";
 import logo from "public/logo2.png";
 import Image from "next/image";
 import Link from "next/link";
-import insta from "/Users/lumi/Downloads/01 Static Glyph/01 Gradient Glyph/Instagram_Glyph_Gradient.png";
+import insta from "public/Instagram_Glyph_Gradient.png";
 import line from "public/LINE_APP_iOS.png"
 
 const SalonFooter = () => {
