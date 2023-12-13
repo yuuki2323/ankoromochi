@@ -23,7 +23,7 @@ const SalonFooter = () => {
           <p>
             〒651-0088
             <br />
-            兵庫県神戸市中央区小野柄通3-1-19 Y's house 三宮Ⅱ 201
+            兵庫県神戸市中央区小野柄通3-1-19 Y&apos;s house 三宮Ⅱ 201
           </p>
           <div className="flex items-center gap-4 mt-1">
             <p className="flex items-center">
