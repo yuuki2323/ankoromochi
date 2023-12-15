@@ -1,24 +1,23 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-
 const MenuList = () => {
   const menu = [
     { 
       href:"#",
-      img: "https://placehold.jp/336x280.png",
+      img: "/oil.jpg",
       title: "オイルトリートメント",
       p: "オリジナルブレンドの肌に残りにくい水溶性オイルを使用。お好みの香りでのオイルで筋肉の張りやむくみを和らげます。全身の血行促進やリンパの流れを良くし老廃物の排出を促すデトックスメニュー。",
     },
     {
       href:"#",
-      img: "https://placehold.jp/336x280.png",
+      img: "/body.jpg",
       title: "ボディトリートメント",
       p: "オイルを使用せずウェアを着用のまま揉みほぐしていくメニュー。筋肉のコリや張りを和らげ、疲労回復効果が得られます。しっかりとほぐされたい方やオイルが苦手な方におすすめのメニュー。",
     },
     {
       href:"#",
-      img: "https://placehold.jp/336x280.png",
+      img: "/oil.jpg",
       title: "ストレッチ",
       p: "オイルを使用せずウェアを着用のまま身体を伸ばしていくメニュー。普段ご自身では伸ばせない深い筋肉をセラピストが時間をかけてゆっくりと伸ばし、全身を弛めることで血行の促進を促し爽快感が得られます。",
     },
@@ -37,7 +36,7 @@ const MenuList = () => {
       <ul className="flex flex-wrap justify-center items-center mt-4 ">
         {menu.map((menu) => {
           return (
-            <li key={menu.title} className="w-hull md:w-1/3 ">
+            <li key={menu.title} className="w-hull md:w-1/3 mb-4">
               <Link href={menu.href}>
               <Image
                 src={menu.img}
@@ -45,7 +44,7 @@ const MenuList = () => {
                 height={280}
                 className="w-11/12 mx-auto"
               />
-              <h3 className="w-11/12 mx-auto text-center text-base md:text-lg lg:text-xl xl:text-2xl">{menu.title}</h3>
+              <h3 className="w-11/12 mx-auto text-center text-base md:text-lg lg:text-xl xl:text-2xl py-1">{menu.title}</h3>
               <p className="w-11/12 mx-auto text-xs">{menu.p}</p>
               </Link>
               

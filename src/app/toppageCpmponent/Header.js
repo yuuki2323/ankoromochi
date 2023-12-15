@@ -18,9 +18,9 @@ const Header = () => {
   return (
     <>
     <header className=" sticky top-0 bg-white">
-      <div className=" container py-2">
+      <div className=" container py-2 mx-auto">
       <div className="flex justify-between items-center mx-12 md:mx-12 lg:mx-24 xl:mx-28 gap-4">
-        <h1 className="w-16 md:w-24 ">
+        <h1 className="w-14 md:w-24 ">
           <Image src={logo} alt="logo" />
         </h1>
 

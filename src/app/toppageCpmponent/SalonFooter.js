@@ -8,7 +8,7 @@ import line from "/public/LINE_APP_iOS.png";
 const SalonFooter = () => {
   return (
     <>
-      <div className=" bg-orange-100 w-screen  py-6 md:py-8 lg:py-12px-12 md:px-12 lg:px-24 xl:px-28  ">
+      <div className=" bg-orange-100   py-6 md:py-8 lg:py-12px-12 md:px-12 lg:px-24 xl:px-28  ">
         <div className="container md:flex justify-center mx-auto">
           <div className="flex flex-col  items-center">
             <h1 className="w-16 md:w-24 ">
@@ -49,14 +49,14 @@ const SalonFooter = () => {
                 </p>
               </div>
             </div>
-            <div className="mdflex justify-center mt-4 border-t border-black ">
+            <div className="mdflex justify-center my-4 border-t border-black ">
               <p>
                 ご予約はネット予約が簡単でお得です。公式LINE・お電話でのご予約も承っております。
                 <br />
                 お気軽にお問い合わせください。
               </p>
             </div>
-            <div className="flex gap-4">
+            <div className="flex gap-4 ">
               <Link
                 href="https://instagram.com/ancoromochi.iyashi?igshid=YTQwZjQ0NmI0OA%3D%3D&utm_source=qr"
                 target="_blank"
@@ -75,7 +75,7 @@ const SalonFooter = () => {
           </div>
         </div>
 
-        <footer className=" py-1">
+        <footer className=" pt-4 pb-2">
           <div className="flex items-center justify-center">
             <small>Copyright © あんころもち All rights reserved.</small>
           </div>
