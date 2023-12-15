@@ -4,6 +4,7 @@ import logo from "public/logo2.png";
 import Link from "next/link";
 
 import SumahoMenu from "./topUI/SumahoMenu";
+import { FiDivideCircle } from "react-icons/fi";
 
 const Header = () => {
   const navi = [
@@ -15,8 +16,9 @@ const Header = () => {
   ];
 
   return (
-    <header className="container mx-auto my-4 ">
-      
+    <>
+    <header className=" sticky top-0 bg-white">
+      <div className=" container py-2">
       <div className="flex justify-between items-center mx-12 md:mx-12 lg:mx-24 xl:mx-28 gap-4">
         <h1 className="w-16 md:w-24 ">
           <Image src={logo} alt="logo" />
@@ -42,7 +44,13 @@ const Header = () => {
         <SumahoMenu/>
       
       </div>
+      </div>
+      
+      
     </header>
+
+    </>
+    
   );
 };
 

@@ -18,9 +18,9 @@ export default function Home() {
         <Feature />
         <MenuList />
         <Reservation/>
-        <SalonFooter/>
+        
       </main>
-      <Footer />
+      <SalonFooter/>
     </>
   );
 }

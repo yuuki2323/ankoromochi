@@ -7,13 +7,13 @@ const Feature = () => {
 
   return (
     <section className="">
-      <div className=" w-screen h-auto relative">
+      <div className=" w-screen h-auto relative -z-10">
         <Image
           src={dammy}
           alt="topimage"
           width={1920}
           height={1280}
-          className=" w-screen relative"
+          className=" w-screen relative "
         />
         <div className=" absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-5/6 ">
           <h2 className=" text-center text-white  text-xs md:text-2xl lg:text-3xl xl:text-4xl mb-4 md:mb-6 lg:mb-8 xl:mb-10">男性様もご利用可能な、完全個室のプライベートサロン</h2>
