@@ -4,7 +4,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import { FiMenu } from "react-icons/fi";
 import { RxCross2 } from "react-icons/rx";
-import logo from "../../../public/logo2.png";
+import logo from "/public/logo2.png";
 
 const SumahoMenu = () => {
   const [isOpen, setOpen] = useState(true);
