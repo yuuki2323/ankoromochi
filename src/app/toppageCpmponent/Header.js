@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import logo from "./public/logo2.png";
+import logo from "../../public/logo2.png";
 import Link from "next/link";
 
 import SumahoMenu from "./topUI/SumahoMenu";
