@@ -1,8 +1,9 @@
 import { Inter } from 'next/font/google'
+import {Kosugi_Maru} from 'next/font/google'
 import './globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
-
+const Kosugi = Kosugi_Maru({ subsets: ['latin'],weight:"400"})
 
 export const metadata = {
   title: 'あんころもち',
@@ -12,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ja">
-      <body className={inter.className}>{children}</body>
+      <body className={Kosugi.className}>{children}</body>
     </html>
   )
 }
