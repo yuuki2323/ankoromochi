@@ -2,34 +2,67 @@ import React from "react";
 import Header from "../toppageCpmponent/Header";
 import SalonFooter from "../toppageCpmponent/SalonFooter";
 import Image from "next/image";
+import MenuListDiv from "./components/MenuListDiv";
+import Option from "./components/option";
 const page = () => {
   return (
     <>
       <Header />
       <div className="bg-orange-100">
         <h2 className="text-center">料金・メニュー</h2>
-        <div className="w-11/12 mx-auto bg-slate-50">
-          <div className="w-11/12 mx-auto">
-            <h3 className="text-center">オイルトリートメント</h3>
-            <h4 className="text-center">施術内容</h4>
-            <Image
-              src="/oil.jpg"
-              alt="oil"
-              width={336}
-              height={200}
-              className=" aspect-video w-full mx-auto "
-            />
-            <p>
-              オリジナルブレンドの肌に残りにくい水溶性オイルを使用。お好みの香りでのオイルで筋肉の張りやむくみを和らげます。全身の血行促進やリンパの流れを良くし老廃物の排出を促すデトックスメニュー。
-            </p>
-            <ul>
-              <li className="flex">
-                <p>60分</p>
-                <p>&yen;13,000/会員価格&yen;10,000</p>
-              </li>
-            </ul>
-          </div>
-        </div>
+
+        <MenuListDiv
+          title="オイルトリートメント"
+          src="/oil.jpg"
+          disc="オリジナルブレンドの肌に残りにくい水溶性オイルを使用。お好みの香りでのオイルで筋肉の張りやむくみを和らげます。全身の血行促進やリンパの流れを良くし老廃物の排出を促すデトックスメニュー。"
+          min={["60分", "90分", "120分"]}
+          price={[
+            "¥13,000/会員価格¥10,000",
+            "¥18,000/会員価格¥15,000",
+            "¥21,000/会員価格¥18,000",
+          ]}
+        />
+        <MenuListDiv
+          title="ボディトリートメント"
+          src="/body.jpg"
+          disc="オイルを使用せずウェアを着用のまま揉みほぐしていくメニュー。筋肉のコリや張りを和らげ、疲労回復効果が得られます。しっかりとほぐされたい方やオイルが苦手な方におすすめのメニュー。"
+          min={["30分", "60分", "90分", "120分"]}
+          price={[
+            "¥8,000/会員価格¥5,000",
+            "¥12,000/会員価格¥9,000",
+            "¥16,000/会員価格¥13,000",
+            "¥20,000/会員価格¥17,000",
+          ]}
+        />
+        <MenuListDiv
+          title="ストレッチ"
+          src="/body.jpg"
+          disc="オイルを使用せずウェアを着用のまま身体を伸ばしていくメニュー。普段ご自身では伸ばせない深い筋肉をセラピストが時間をかけてゆっくりと伸ばし、全身を弛めることで血行の促進を促し爽快感が得られます。"
+          min={["30分", "60分", "90分", "120分"]}
+          price={[
+            "¥8,000/会員価格¥5,000",
+            "¥12,000/会員価格¥9,000",
+            "¥16,000/会員価格¥13,000",
+            "¥20,000/会員価格¥17,000",
+          ]}
+        />
+        <MenuListDiv
+          title="ドライセット(ストレッチ & ボディ)"
+          src="/body.jpg"
+          min={["60分", "90分", "120分"]}
+          price={[
+            "¥16,000/会員価格¥13,000",
+            "¥20,000/会員価格¥17,000",
+            "¥24,000/会員価格¥21,000",
+          ]}
+        />
+        <MenuListDiv
+          title="オーダーメイドコース"
+          src="/body.jpg"
+          min={["150分", "180分", "240分", "270分", "300分"]}
+          price={["¥23,000", "¥27,000", "¥36,000", "¥41,000", "¥45,000"]}
+        />
+        <Option/>
       </div>
       <SalonFooter />
     </>

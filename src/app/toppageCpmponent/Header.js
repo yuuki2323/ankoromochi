@@ -8,8 +8,7 @@ import SumahoMenu from "./topUI/SumahoMenu";
 
 const Header = () => {
   const navi = [
-    { href: "/menu", nav: "メニューリスト" ,en:"menu list" },
-    { href: "/price", nav: "料金一覧" ,en:"price list"},
+    { href: "/menu", nav: "メニュー・料金一覧" ,en:"menu list" },
     { href: "/shop", nav: "店舗情報" ,en:"shop"},
     { href: "/staff", nav: "スタッフ紹介" ,en:"staff"},
     { href: "/beginner", nav: "はじめての方へ" ,en:"beginner"},
