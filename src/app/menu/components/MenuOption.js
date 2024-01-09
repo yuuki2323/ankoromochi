@@ -1,6 +1,6 @@
 import React from "react";
 
-const Option = () => {
+const MenuOption = () => {
   return (
     <div className="w-11/12 mx-auto bg-slate-50 mb-8">
       <div className="w-11/12 mx-auto">
@@ -50,4 +50,4 @@ const Option = () => {
   );
 };
 
-export default Option;
+export default MenuOption;

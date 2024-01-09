@@ -2,7 +2,9 @@ import React from "react";
 import Header from "../toppageCpmponent/Header";
 import SalonFooter from "../toppageCpmponent/SalonFooter";
 import MenuListDiv from "./components/MenuListDiv";
-import Option from "./components/option";
+import Option from "./components/MenuOption";
+import MenuOption from "./components/MenuOption";
+
 const page = () => {
   return (
     <>
@@ -61,7 +63,7 @@ const page = () => {
           min={["150分", "180分", "240分", "270分", "300分"]}
           price={["¥23,000", "¥27,000", "¥36,000", "¥41,000", "¥45,000"]}
         />
-        <Option/>
+        <MenuOption/>
       </div>
       <SalonFooter />
     </>
