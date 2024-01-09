@@ -2,27 +2,27 @@ import React from "react";
 
 const MenuOption = () => {
   return (
-    <div className="w-11/12 mx-auto bg-slate-50 mb-8">
+    <div className="w-11/12 mx-auto bg-slate-50 pb-4">
       <div className="w-11/12 mx-auto">
-        <h3 className="text-center">オプションメニュー</h3>
+        <h3 className="text-center py-1 text-lg">オプションメニュー</h3>
 
         <ul>
-          <p>クリームヘッドスパ </p>
-          <li className="flex justify-between border-b">
+          <p className="">クリームヘッドスパ </p>
+          <li className="flex justify-between border-b mb-2">
             <p>30分</p>
             <p>&yen;6000</p>
           </li>
           <p>リフレクソロジー</p>
-          <li className="flex justify-between border-b">
+          <li className="flex justify-between border-b ">
             <p>30分</p>
             <p>&yen;6000</p>
           </li>
-          <li className="flex justify-between border-b">
+          <li className="flex justify-between border-b mb-2">
             <p>60分</p>
             <p>&yen;10,000</p>
           </li>
           <p>フェイシャル</p>
-          <li className="flex justify-between border-b">
+          <li className="flex justify-between border-b mb-2">
             <p>30分</p>
             <div className=" text-right">
               <p>&yen;5,000</p>
@@ -30,12 +30,12 @@ const MenuOption = () => {
             </div>
           </li>
           <p>ドライヘッドスパ</p>
-          <li className="flex justify-between border-b">
+          <li className="flex justify-between border-b mb-2">
             <p>10分</p>
             <p>&yen;2,000</p>
           </li>
           <p>パウエルトリートメント</p>
-          <li className="flex justify-between border-b">
+          <li className="flex justify-between border-b mb-2">
             <p>10分</p>
             <p>&yen;2,000</p>
           </li>

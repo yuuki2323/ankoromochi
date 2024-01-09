@@ -10,7 +10,7 @@ const page = () => {
     <>
       <Header />
       <div className="bg-orange-100">
-        <h2 className="text-center">料金・メニュー</h2>
+        <h2 className="text-center text-xl py-2">- 料金・メニュー -</h2>
 
         <MenuListDiv
           title="オイルトリートメント"

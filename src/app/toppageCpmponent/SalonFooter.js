@@ -29,7 +29,7 @@ const SalonFooter = () => {
               </p>
               <div className="flex  gap-4 mt-1">
                 <p className="flex ">
-                  <span className="block text-center py-1 w-16 bg-slate-300 mr-2">
+                  <span className="block text-center py-1 w-12 bg-slate-300 mr-2">
                     TEL
                   </span>
                   <a
@@ -40,11 +40,11 @@ const SalonFooter = () => {
                   </a>
                 </p>
                 <p className="flex  item-center">
-                  <span className="block text-center py-1 w-16 bg-slate-300 mr-2">
+                  <span className="block text-center py-1 w-12 bg-slate-300 mr-2">
                     OPEN
                   </span>
-                  <span className="block text-center py-1 w-16  mr-2">
-                    10:00~20:00
+                  <span className="block text-center py-1 w-18  mr-2">
+                    10:00-20:00
                   </span>
                 </p>
               </div>
