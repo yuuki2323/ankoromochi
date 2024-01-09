@@ -1,4 +1,4 @@
-import Image from "next/image";
+
 import Header from "./toppageCpmponent/Header";
 import TopPhoto from "./toppageCpmponent/TopPhoto";
 import Feature from "./toppageCpmponent/Feature";

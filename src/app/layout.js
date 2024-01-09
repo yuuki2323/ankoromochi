@@ -1,8 +1,8 @@
-import { Inter } from 'next/font/google'
+
 import {Kosugi_Maru} from 'next/font/google'
 import './globals.css'
 
-const inter = Inter({ subsets: ['latin'] })
+
 const Kosugi = Kosugi_Maru({ subsets: ['latin'],weight:"400"})
 
 export const metadata = {

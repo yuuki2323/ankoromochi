@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../toppageCpmponent/Header";
 import SalonFooter from "../toppageCpmponent/SalonFooter";
-import Image from "next/image";
 import MenuListDiv from "./components/MenuListDiv";
 import Option from "./components/option";
 const page = () => {

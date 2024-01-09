@@ -5,6 +5,7 @@ import SalonFooter from '../toppageCpmponent/SalonFooter'
 const page = () => {
   return (
     <>
+    <p>1</p>
     <Header/>
     <div>page</div>
     <SalonFooter/>
