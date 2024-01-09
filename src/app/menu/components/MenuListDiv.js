@@ -12,7 +12,7 @@ const MenuListDiv = (props) => {
         alt="oil"
         width={336}
         height={200}
-        className=" aspect-video w-full mx-auto "
+        className=" w-full mx-auto "
       />
       <p>
         {props.disc}
