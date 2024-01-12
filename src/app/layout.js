@@ -13,7 +13,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="ja">
-      <body className={Kosugi.className}>{children}</body>
+      <body className={`Kosugi.className text-brown-900`}>{children}</body>
     </html>
   )
 }
