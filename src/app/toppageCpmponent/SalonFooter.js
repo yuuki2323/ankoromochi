@@ -24,7 +24,7 @@ const SalonFooter = () => {
             <div>
               <p>
                 〒651-0088
-                <br />
+                <br/>
                 兵庫県神戸市中央区小野柄通3-1-19 Y&apos;s house 三宮Ⅱ 201
               </p>
               <div className="flex  gap-4 mt-1">
@@ -33,10 +33,10 @@ const SalonFooter = () => {
                     TEL
                   </span>
                   <a
-                    href="tel:090-1234-5678"
+                    href="tel:078-894-3629"
                     className="block py-1 md:pointer-events-none text-blue-700 md:text-black border-b border-blue-700 md:border-none"
                   >
-                    090-1234-5678
+                    078-894-3629
                   </a>
                 </p>
                 <p className="flex  item-center">

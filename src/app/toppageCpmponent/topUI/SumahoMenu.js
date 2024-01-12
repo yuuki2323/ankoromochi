@@ -13,10 +13,11 @@ const SumahoMenu = () => {
   };
 
   const navi = [
+    { href: "/", nav: "トップページ" ,en:"top" },
     { href: "/menu", nav: "メニュー・料金一覧" ,en:"menu list" },
     { href: "/shop", nav: "店舗情報" ,en:"shop"},
     { href: "/staff", nav: "スタッフ紹介" ,en:"staff"},
-    { href: "/beginner", nav: "はじめての方へ" ,en:"beginner"},
+ 
   ];
 
   return (
@@ -41,19 +42,19 @@ const SumahoMenu = () => {
             <Image src={logo} alt="logo" />
           </h1>
 
-          <ul className="my-12 flex flex-col items-center gap-4 ">
+          <ul className="my-12 flex flex-col items-center ">
             {navi.map((navi) => {
               return (
-                <li key={navi.nav}>
+                <li key={navi.nav} className="border-b">
                   <Link
                     href={navi.href}
-                    className="py-4 flex flex-col items-center w-screen  "
+                    className=" flex flex-col items-center w-screen py-4 "
                     onClick={handleMenu}
                   >
                     <p className=" font-semibold text-brown-800 text-base">
                       {navi.nav}
                     </p>
-                    <p className=" font-light text-sm text-brown-500">
+                    <p className=" font-light text-sm text-brown-500 ">
                       {navi.en}
                     </p>
                   </Link>

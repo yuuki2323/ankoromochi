@@ -8,18 +8,18 @@ import SumahoMenu from "./topUI/SumahoMenu";
 
 const Header = () => {
   const navi = [
+    { href: "/", nav: "トップページ" ,en:"top" },
     { href: "/menu", nav: "メニュー・料金一覧" ,en:"menu list" },
     { href: "/shop", nav: "店舗情報" ,en:"shop"},
     { href: "/staff", nav: "スタッフ紹介" ,en:"staff"},
-    { href: "/beginner", nav: "はじめての方へ" ,en:"beginner"},
   ];
 
   return (
     <>
-    <header className=" sticky top-0 bg-white">
+    <header className=" sticky top-0 bg-white border-b border-x-neutral-500">
       <div className=" container py-2 mx-auto">
       <div className="flex justify-between items-center mx-12 md:mx-12 lg:mx-24 xl:mx-28 gap-4">
-        <h1 className="w-14 md:w-24 ">
+        <h1 className="w-14 md:w-18 lg:w-20">
           <Image src={logo} alt="logo" />
         </h1>
 
