@@ -22,7 +22,10 @@ const Header = () => {
       <div className=" container py-2 mx-auto">
       <div className="flex justify-between items-center mx-12 md:mx-12 lg:mx-24 xl:mx-28 gap-4">
         <h1 className="w-14 md:w-18 lg:w-20">
+          <Link href="/">
           <Image src={logo} alt="logo" />
+          </Link>
+          
         </h1>
 
         {/* パソコンメニュー */}

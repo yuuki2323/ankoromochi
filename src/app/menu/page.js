@@ -9,7 +9,7 @@ const page = () => {
   return (
     <>
       <Header />
-      <div className="bg-orange-100">
+      <div className="bg-orange-100 border-b border-brown-900">
         <h2 className="text-center text-xl py-2">- 料金・メニュー -</h2>
 
         <MenuListDiv
@@ -53,6 +53,7 @@ const page = () => {
         <MenuListDiv
           title="ドライセット(ストレッチ & ボディ)"
           src="/body.jpg"
+          disc="ストレッチとボディトリートメントのセットメニュー。"
           min={["60分", "90分", "120分"]}
           price={[
             "¥16,000/会員価格¥13,000",
@@ -63,6 +64,7 @@ const page = () => {
         <MenuListDiv
           title="オーダーメイドコース"
           src="/oil.jpg"
+          disc="オーダーメイドでコースが作れるメニュー"
           min={["150分", "180分", "240分", "270分", "300分"]}
           price={["¥23,000", "¥27,000", "¥36,000", "¥41,000", "¥45,000"]}
         />

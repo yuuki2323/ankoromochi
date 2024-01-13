@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import src from "/public/feature.png";
-import sumahosrc from "/public/スマホ用1.jpg"
+import sumahosrc from "/public/disSumaho.jpg"
 const Feature = () => {
   return (
     <section className="">
