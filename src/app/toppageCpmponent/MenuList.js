@@ -4,20 +4,20 @@ import React from "react";
 const MenuList = () => {
   const menu = [
     {
-      href: "#",
+      href: "/menu#oil",
       img: "/oil.jpg",
       title: "オイルトリートメント",
       p: "オリジナルブレンドの肌に残りにくい水溶性オイルを使用。お好みの香りでのオイルで筋肉の張りやむくみを和らげます。全身の血行促進やリンパの流れを良くし老廃物の排出を促すデトックスメニュー。",
     },
     {
-      href: "#",
+      href: "/menu#body",
       img: "/body.jpg",
       title: "ボディトリートメント",
       p: "オイルを使用せずウェアを着用のまま揉みほぐしていくメニュー。筋肉のコリや張りを和らげ、疲労回復効果が得られます。しっかりとほぐされたい方やオイルが苦手な方におすすめのメニュー。",
     },
     {
-      href: "#",
-      img: "/oil.jpg",
+      href: "/menu#st",
+      img: "/ストレッチ.jpg",
       title: "ストレッチ",
       p: "オイルを使用せずウェアを着用のまま身体を伸ばしていくメニュー。普段ご自身では伸ばせない深い筋肉をセラピストが時間をかけてゆっくりと伸ばし、全身を弛めることで血行の促進を促し爽快感が得られます。",
     },
@@ -37,22 +37,23 @@ const MenuList = () => {
         {menu.map((menu) => {
           return (
             <li key={menu.title} className="w-hull md:w-1/3 mb-4">
-              
-                <Image
-                  src={menu.img}
-                  width={336}
-                  height={280}
-                  alt="photo"
-                  className="w-11/12 mx-auto"
-                />
+              <Image
+                src={menu.img}
+                width={336}
+                height={280}
+                alt="photo"
+                className="w-11/12 mx-auto"
+              />
 
-                  <h3 className="w-11/12 mx-auto text-center text-base md:text-lg lg:text-xl xl:text-2xl py-1 ">
-                    {menu.title}
-                  </h3>
+              <h3 className="w-11/12 mx-auto text-center text-base md:text-lg lg:text-xl xl:text-2xl py-1 ">
+                {menu.title}
+              </h3>
 
-                <p className="w-11/12 mx-auto text-xs mb-2">{menu.p}</p>
-                <Link href={menu.href}>
-                <button className="w-11/12 block mx-auto text-sm border border-black rounded-md py-3">詳細はこちら</button>
+              <p className="w-11/12 mx-auto text-xs mb-2">{menu.p}</p>
+              <Link href={menu.href}>
+                <button className="w-11/12 block mx-auto text-sm border border-black rounded-md py-3">
+                  詳細はこちら
+                </button>
               </Link>
             </li>
           );

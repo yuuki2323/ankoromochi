@@ -7,12 +7,12 @@ const MenuOption = () => {
         <h3 className="text-center py-1 text-lg">オプションメニュー</h3>
 
         <ul>
-          <p className="">クリームヘッドスパ </p>
+          <p className="">・クリームヘッドスパ </p>
           <li className="flex justify-between border-b mb-2">
             <p>30分</p>
             <p>&yen;6000</p>
           </li>
-          <p>リフレクソロジー</p>
+          <p>・リフレクソロジー</p>
           <li className="flex justify-between border-b ">
             <p>30分</p>
             <p>&yen;6000</p>
@@ -21,7 +21,7 @@ const MenuOption = () => {
             <p>60分</p>
             <p>&yen;10,000</p>
           </li>
-          <p>フェイシャル</p>
+          <p>・フェイシャル</p>
           <li className="flex justify-between border-b mb-2">
             <p>30分</p>
             <div className=" text-right">
@@ -29,12 +29,12 @@ const MenuOption = () => {
               <p>パック別途&yen;2,000</p>
             </div>
           </li>
-          <p>ドライヘッドスパ</p>
+          <p>・ドライヘッドスパ</p>
           <li className="flex justify-between border-b mb-2">
             <p>10分</p>
             <p>&yen;2,000</p>
           </li>
-          <p>パウエルトリートメント</p>
+          <p>・パウエルトリートメント</p>
           <li className="flex justify-between border-b mb-2">
             <p>10分</p>
             <p>&yen;2,000</p>

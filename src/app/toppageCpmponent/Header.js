@@ -1,8 +1,8 @@
+
 import Image from "next/image";
-import React from "react";
+import React from 'react';
 import logo from "/public/logo2.png";
 import Link from "next/link";
-
 import SumahoMenu from "./topUI/SumahoMenu";
 
 
@@ -14,9 +14,11 @@ const Header = () => {
     { href: "/staff", nav: "スタッフ紹介" ,en:"staff"},
   ];
 
+
   return (
     <>
-    <header className=" sticky top-0 bg-white border-b border-x-neutral-500">
+    <header className={`sticky top-0 w-full bg-white border-b border-x-neutral-500`} >
+      
       <div className=" container py-2 mx-auto">
       <div className="flex justify-between items-center mx-12 md:mx-12 lg:mx-24 xl:mx-28 gap-4">
         <h1 className="w-14 md:w-18 lg:w-20">

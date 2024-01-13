@@ -34,7 +34,7 @@ const SalonFooter = () => {
                   </span>
                   <a
                     href="tel:078-894-3629"
-                    className="block py-1 md:pointer-events-none text-blue-700 md:text-black border-b border-blue-700 md:border-none"
+                    className="block py-1 md:pointer-events-none text-blue-700 border-b border-blue-700 md:border-none md:text-brown-900"
                   >
                     078-894-3629
                   </a>

@@ -1,9 +1,10 @@
+import Link from "next/link";
 import React from "react";
 
 const Reservation = () => {
   return (
-    
-      <div className="bg-amber-200 w-screen  py-8 md:py-14 lg:py-20 px-12 md:px-12 lg:px-24 xl:px-28">
+    <div className="w-screen  py-8 md:py-14 lg:py-20 px-12 md:px-12 lg:px-24 xl:px-28 border-y border-x-zinc-700">
+      
         <div className="flex flex-col justify-center items-center ">
           <h2 className="text-xl md:text-2xl lg:text-3xl xl:text-4xl">
             ご予約について
@@ -12,16 +13,24 @@ const Reservation = () => {
             reservation
           </p>
         </div>
-        <p className="mt-6">当サロンは、アロマトリートメントを中心とした完全予約制のプライベートサロンです。ご予約については、SNS、メール、お問い合わせフォームから受け付けております。お問い合わせ、ご予約いただいた際には、必ずお返事をさせていただきます。ご不明な点などがございましたら、お気軽にご相談ください。</p>
-        <div>
-          <div className="mt-6">
-            <h3 className="border-l-4 border-black pl-2">お問い合わせフォーム</h3>
-           
-          </div>
-
-        </div>
+        <p className="mt-6 text-center">
+          公式LINEより承っております。
+          <br />
+          お気軽にお問い合わせください。
+        </p>
+   
+        <div className="flex justify-center items-center my-4 md:my-6">
+        <Link
+          href="https://page.line.me/ancoromochi_iyashi"
+          target="_blank"
+          rel="noopener"
+          className="border border-black py-3 px-2 lg:py-4 lg:px-3 lg:text-xl rounded-md"
+        >
+          公式LINEはこちら
+        </Link>
       </div>
 
+    </div>
   );
 };
 

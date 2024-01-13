@@ -3,9 +3,8 @@ import React from "react";
 
 const Info = () => {
   const news = [
-    { date: "2023/12/05", href: "#", title: "記事のタイトル入れます" },
-    { date: "2023/12/05", href: "#", title: "記事のタイトル入れます" },
-    { date: "2023/12/05", href: "#", title: "記事のタイトル入れます" },
+    
+
   ];
   return (
     <section className="container mx-auto my-8 md:my-14 lg:my-20 px-12 md:px-12 lg:px-24 xl:px-28">
@@ -30,10 +29,8 @@ const Info = () => {
           );
         })}
       </div>
-      <div className="flex justify-center items-center my-4 md:my-6">
-      <Link href="#" className="border border-black py-2 px-1 lg:py-4 lg:px-2 lg:text-xl rounded-md">お知らせ一覧</Link>
-      </div>
       
+     <h3 className="text-center text-xl pt-8">お知らせはまだございません。</h3>
     </section>
   );
 };
