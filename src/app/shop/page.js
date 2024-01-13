@@ -32,7 +32,7 @@ const page = () => {
                   </tr>
                   <tr>
                     <th className="w-[30%] border-b border-r p-4" >住所</th>
-                    <td className="border-b border-l p-4">兵庫県神戸市中央区小野柄通３丁目１−１９ Y's house 三宮Ⅱ 201</td>
+                    <td className="border-b border-l p-4">兵庫県神戸市中央区小野柄通３丁目１−１９ Y&apos;s house 三宮Ⅱ 201</td>
                   </tr>
                   <tr >
                     <th className="w-[30%] border-b border-r p-4" >最寄り駅</th>
