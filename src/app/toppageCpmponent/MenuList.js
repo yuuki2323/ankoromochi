@@ -50,7 +50,12 @@ const MenuList = () => {
               </h3>
 
               <p className="w-11/12 mx-auto text-xs mb-2">{menu.p}</p>
-              <Link href={menu.href}>
+              <Link href={menu.href} className="block md:hidden">
+                <button className="w-11/12 block mx-auto text-sm border border-black rounded-md py-3">
+                  詳細はこちら
+                </button>
+              </Link>
+              <Link href="/menu" className="hidden md:block">
                 <button className="w-11/12 block mx-auto text-sm border border-black rounded-md py-3">
                   詳細はこちら
                 </button>
@@ -62,7 +67,7 @@ const MenuList = () => {
 
       <div className="flex justify-center items-center my-4 md:my-6">
         <Link
-          href="#"
+          href="/menu#op"
           className="border border-black py-3 px-1 lg:py-4 lg:px-2 lg:text-xl rounded-md"
         >
           オプションメニューはこちら

@@ -49,8 +49,8 @@ const SalonFooter = () => {
                 </p>
               </div>
             </div>
-            <div className="mdflex justify-center my-4 border-t border-black ">
-              <p>
+            <div className="mdflex justify-center my-4 border-t border-slate-800 ">
+              <p className="mt-2">
               ご予約は公式LINE、またはお電話にて承っております。<br/>施術中はお電話をお受けすることができかねますのでご了承ください。
               </p>
             </div>

@@ -2,7 +2,10 @@ import React from "react";
 
 const MenuOption = () => {
   return (
-    <div className="w-11/12 mx-auto bg-slate-50 pb-4">
+    <>
+    <a className="pt-[84px] -mt-[84px] block" id="op"></a>
+    <div className="w-11/12 md:w-1/3 lg:w-1/4 mx-auto md:mx-4 bg-slate-50 pb-4 mb-8">
+    
       <div className="w-11/12 mx-auto">
         <h3 className="text-center py-1 text-lg">オプションメニュー</h3>
 
@@ -47,6 +50,7 @@ const MenuOption = () => {
         </ul>
       </div>
     </div>
+    </>
   );
 };
 

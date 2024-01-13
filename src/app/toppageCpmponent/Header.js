@@ -10,8 +10,9 @@ const Header = () => {
   const navi = [
     { href: "/", nav: "トップページ" ,en:"top" },
     { href: "/menu", nav: "メニュー・料金一覧" ,en:"menu list" },
-    { href: "/shop", nav: "店舗情報" ,en:"shop"},
     { href: "/staff", nav: "スタッフ紹介" ,en:"staff"},
+    { href: "/shop", nav: "店舗情報" ,en:"shop"},
+
   ];
 
 

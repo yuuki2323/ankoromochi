@@ -24,7 +24,7 @@ const Feature = () => {
           <h2 className=" text-center text-white  text-xl md:text-2xl lg:text-3xl xl:text-4xl mb-4 md:mb-6 lg:mb-8 xl:mb-10">
             男性様もご利用可能な完全個室の<br/>プライベートサロン
           </h2>
-          <p className="text-white text-sm md:text-base lg:text-lg xl:text-xl tracking-wide leading-relaxed">
+          <p className="text-white text-sm md:text-base lg:text-lg xl:text-2xl tracking-wide leading-relaxed">
             癒し処あんころもちでは決まったお施術はありません。
             <br /><br/>
             お客様おひとりおひとりに合わせた完全オーダーメイドでの極上オイルマッサージをご提供致します。<br/><br/>あなただけの癒しの空間で心身ともにリフレッシュできるひとときをお過ごし頂けます。その他ヘッドスパやオイルを使わないボディトリートメント等、様々なメニューもございます。
