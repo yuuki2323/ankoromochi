@@ -11,11 +11,12 @@ const center = {
 
 const MyGoogleMap = () => {
   return (
+    
     <LoadScript
       googleMapsApiKey="AIzaSyC7pQmC2WqYk_aNhe6PgLPjX9ackII0RWo"
     >
       <GoogleMap
-        mapContainerClassName="w-full h-48 md:h-[400px] lg:h-[500px]"
+        mapContainerClassName="w-full h-60 md:h-[400px] lg:h-[500px]"
         center={center}
         zoom={17}
       >
@@ -23,6 +24,8 @@ const MyGoogleMap = () => {
         <Marker position={center} />
       </GoogleMap>
     </LoadScript>
+
+
   )
 }
 
