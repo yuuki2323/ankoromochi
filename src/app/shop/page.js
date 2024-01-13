@@ -24,7 +24,7 @@ const page = () => {
                   経路はこちら
                 </Link>
               </div>
-              <table className="table-auto border-collapse text-lg lg:text-xl">
+              <table className="table-auto border-collapse text-base md:text-xl">
                 <tbody className="">
                   <tr>
                     <th className="w-[30%] border-b border-r p-4" >店舗名</th>
