@@ -9,7 +9,7 @@ const Staff = (props) => {
       </div>
       <div className='w-1/2'>
         <h3 className='text-2xl md:text-3xl lg:text-xl xl:text-3xl'>{props.name}</h3>
-        <p className='text-lg md:text-xl lg:text-lg xl:text-xl'>{props.p}</p>
+        <p className='text-base md:text-lg lg:text-base xl:text-lg'>{props.p}</p>
         <p className='text-xs md:text-lg lg:text-xs xl:text-xl mt-4'>{props.dis}</p>
       </div>
     </div>
