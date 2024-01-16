@@ -67,7 +67,7 @@ const MenuList = () => {
 
       <div className="flex justify-center items-center my-4 md:my-6">
         <Link
-          href="/menu#op"
+          href="/menu#option"
           className="border border-black py-3 px-1 lg:py-4 lg:px-2 lg:text-xl rounded-md"
         >
           オプションメニューはこちら
