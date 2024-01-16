@@ -13,13 +13,13 @@ const MenuOption = () => {
             <p className="text-xs">お客様のお好みに合わせて5種類の中からお選び頂いたクリームを使う頭皮・髪・首までのトリートメント。</p>
             <li className="flex justify-between border-b mb-2">
               <p>30分</p>
-              <p>&yen;6000</p>
+              <p>&yen;6,000</p>
             </li>
             <p>・リフレクソロジー</p>
             <p className="text-xs">台湾式の足ツボのメニュー。</p>
             <li className="flex justify-between border-b ">
               <p>30分</p>
-              <p>&yen;6000</p>
+              <p>&yen;5,000</p>
             </li>
             <li className="flex justify-between border-b mb-2">
               <p>60分</p>

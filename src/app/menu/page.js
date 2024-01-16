@@ -2,7 +2,6 @@ import React from "react";
 import Header from "../toppageCpmponent/Header";
 import SalonFooter from "../toppageCpmponent/SalonFooter";
 import MenuListDiv from "./components/MenuListDiv";
-import Option from "./components/MenuOption";
 import MenuOption from "./components/MenuOption";
 
 const page = () => {
