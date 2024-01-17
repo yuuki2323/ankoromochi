@@ -16,7 +16,7 @@ const Info = () => {
           infomation
         </p>
       </div>
-      <p className="pt-3 md:pt-4 lg:pt-5 text-center text-lg md:text-xl lg:text-2xl xl:text-3xl">
+      <p className="pt-3 md:pt-4 lg:pt-5 text-center text-base md:text-xl lg:text-2xl xl:text-3xl">
           お知らせはInstagramをご覧ください。
         </p>
       <div className="flex justify-center items-center my-4 md:my-6">
