@@ -27,19 +27,19 @@ const page = () => {
               <table className="table-auto border-collapse text-xs md:text-xl">
                 <tbody className="">
                   <tr>
-                    <th className="w-[30%] border-b border-r p-4" >店舗名</th>
+                    <th className="w-[35%] border-b border-r p-4" >店舗名</th>
                     <td className="border-b border-l p-4">癒し処 あんころもち</td>
                   </tr>
                   <tr>
-                    <th className="w-[30%] border-b border-r p-4" >住所</th>
+                    <th className="w-[35%] border-b border-r p-4" >住所</th>
                     <td className="border-b border-l p-4">兵庫県神戸市中央区小野柄通３丁目１−１９ Y&apos;s house 三宮Ⅱ 201</td>
                   </tr>
                   <tr >
-                    <th className="w-[30%] border-b border-r p-4" >最寄り駅</th>
+                    <th className="w-[35%] border-b border-r p-4" >最寄り駅</th>
                     <td className="border-b border-l p-4">JR 三ノ宮駅</td>
                   </tr>
                   <tr>
-                    <th className="w-[30%] border-r p-4" >営業時間</th>
+                    <th className="w-[35%] border-r p-4" >営業時間</th>
                     <td className=" border-l p-4">10:00-20:00</td>
                   </tr>
  
