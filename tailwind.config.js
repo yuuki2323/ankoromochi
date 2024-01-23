@@ -8,6 +8,30 @@ module.exports = {
   ],
   theme: {
     extend: {
+      animation:{
+        "slideshow":"slideshow 15s linear infinite 0s "
+      },
+      keyframes:{
+        "slideshow":{
+          "0%":{
+            opacity:"0",
+            transitionTimingFunction:"ease-in",
+          },
+          "8%":{
+            opacity:"1",
+            transitionTimingFunction:"ease-out",
+          },
+          "20%":{
+            opacity:"1"
+          },
+          "40%":{
+            opacity:"0"
+          },
+          "100%":{
+            opacity:"0"
+          },
+        }
+      },
       boxShadow:{
         "headerShadow":"0px 4px 4px 0px rgba(0,0,0,0.5)",
       },
