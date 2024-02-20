@@ -40,7 +40,7 @@ const MenuOption = () => {
               <p>10分</p>
               <p>&yen;2,000</p>
             </li>
-            <p>・パウエルトリートメント</p>
+            <p>・バウエルトリートメント</p>
             <p className="text-xs">オイルを使用し固くなった大腸、小腸、骨盤まわりを揉みほぐします。</p>
             <li className="flex justify-between border-b mb-2">
               <p>10分</p>
