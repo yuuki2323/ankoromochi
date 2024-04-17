@@ -8,12 +8,13 @@ const center = {
   lat: 34.69490610809157, 
   lng: 135.20004921576663
 };
-
+const apikey=process.env.API_KEY
 const MyGoogleMap = () => {
+   
   return (
     
     <LoadScript
-      googleMapsApiKey="AIzaSyC7pQmC2WqYk_aNhe6PgLPjX9ackII0RWo"
+      googleMapsApiKey={apikey}
     >
       <GoogleMap
         mapContainerClassName="w-full h-60 md:h-[400px] lg:h-[500px]"
