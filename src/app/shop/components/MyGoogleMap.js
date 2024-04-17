@@ -8,9 +8,9 @@ const center = {
   lat: 34.69490610809157, 
   lng: 135.20004921576663
 };
-const apikey = process.env.NEXT_PUBLIC_API_KEY;
+
 const MyGoogleMap = () => {
-   
+  const apikey = process.env.NEXT_PUBLIC_API_KEY;
   return (
     
     <LoadScript
