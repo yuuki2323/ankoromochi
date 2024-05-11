@@ -56,9 +56,9 @@ const MenuOption = () => {
               <p>&yen;5,000</p>
             </li>
             <p>オイルプール</p>
-            <li className="flex justify-between border-b mb-2">
-              <p>&yen;2,000</p>
-            </li>
+            
+              <p className="text-right border-b mb-2">&yen;2,000</p>
+            
             <p>各延長</p>
             <li className="flex justify-between border-b">
               <p>10分</p>
