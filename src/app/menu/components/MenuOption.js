@@ -55,6 +55,10 @@ const MenuOption = () => {
               <p>30分</p>
               <p>&yen;5,000</p>
             </li>
+            <p>オイルプール</p>
+            <li className="flex justify-between border-b mb-2">
+              <p>&yen;2,000</p>
+            </li>
             <p>各延長</p>
             <li className="flex justify-between border-b">
               <p>10分</p>
