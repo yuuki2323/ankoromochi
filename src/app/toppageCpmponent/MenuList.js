@@ -16,6 +16,18 @@ const MenuList = () => {
       p: "オイルを使用せずウェアを着用のまま揉みほぐしていくメニュー。筋肉のコリや張りを和らげ、疲労回復効果が得られます。しっかりとほぐされたい方やオイルが苦手な方におすすめのメニュー。",
     },
     {
+      href: "/menu#LED",
+      img: "/LED.jpg",
+      title: "LED脱毛",
+      p: "",
+    },
+    {
+      href: "/menu#st",
+      img: "/wax.jpg",
+      title: "ワックス脱毛",
+      p: "",
+    },
+    {
       href: "/menu#st",
       img: "/st.jpg",
       title: "ストレッチ",

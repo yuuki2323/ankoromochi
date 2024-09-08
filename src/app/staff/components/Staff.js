@@ -8,9 +8,9 @@ const Staff = (props) => {
         <Image src={props.src} alt="photo" width={300} height={400} className="h-auto w-full" />
       </div>
       <div className='w-1/2'>
-        <h3 className='text-2xl md:text-3xl lg:text-xl xl:text-3xl'>{props.name}</h3>
+        <h3 className='text-2xl md:text-2xl lg:text-xl xl:text-2xl'>{props.name}</h3>
         <p className='text-base md:text-lg lg:text-base xl:text-lg'>{props.p}</p>
-        <p className='text-xs md:text-lg lg:text-xs xl:text-xl mt-4'>{props.dis}</p>
+        <p className='text-xs md:text-base  mt-4'>{props.dis}</p>
       </div>
     </div>
   )

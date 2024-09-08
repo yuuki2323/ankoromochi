@@ -21,7 +21,7 @@ const MenuListDiv = (props) => {
           <p className="py-4">{props.disc}</p>
           <ul>
             {props.min.map((minItem, index) => (
-              <li className="flex justify-between border-b py-1 text-lg" key={index}>
+              <li className="flex justify-between border-b py-1 text-sm" key={index}>
                 <p>{minItem}</p>
                 <p>{props.price[index]}</p>
               </li>
