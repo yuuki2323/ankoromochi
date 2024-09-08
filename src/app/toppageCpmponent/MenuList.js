@@ -22,7 +22,7 @@ const MenuList = () => {
       p: "",
     },
     {
-      href: "/menu#st",
+      href: "/menu#wax",
       img: "/wax.jpg",
       title: "ワックス脱毛",
       p: "",
