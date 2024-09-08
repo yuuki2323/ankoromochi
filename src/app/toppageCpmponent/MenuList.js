@@ -28,6 +28,12 @@ const MenuList = () => {
       p: "",
     },
     {
+      href: "/menu#LEDwax",
+      img: "/LED.jpg",
+      title: "W脱毛",
+      p: "",
+    },
+    {
       href: "/menu#st",
       img: "/st.jpg",
       title: "ストレッチ",
