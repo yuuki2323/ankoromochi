@@ -95,7 +95,7 @@ const page = () => {
             titleId=""
             src="/wax.jpg"
             disc=""
-            min={["W脱毛", "W脱毛＋デリケート泡パック"]}
+            min={["W脱毛", "W脱毛＋泡パック"]}
             price={["¥35,000/会員価格¥26,000", "¥38,000/会員価格¥29,000"]}
           />
           <MenuListDiv
