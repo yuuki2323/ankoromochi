@@ -79,7 +79,7 @@ const page = () => {
           <MenuListDiv
             title="ワックス脱毛"
             titleId="wax"
-            src="/wax.jpg"
+            src="/waxmain.jpg"
             disc=""
             min={[
               "VIO",
