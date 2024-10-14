@@ -19,19 +19,19 @@ const MenuList = () => {
       href: "/menu#LED",
       img: "/LED.jpg",
       title: "LED脱毛",
-      p: "",
+      p: "濃い毛・薄い毛・産毛にも高い効果を発揮し、肌色を問わず脱毛可能。抑毛効果も高く、光脱毛より浸透しやすい光を使用するため痛みも最小限となり、毛乳頭とバルジ領域のダブルに作用するため、高い脱毛効果を備えている最新の脱毛となります。火傷などのリスクも低いため、安全に脱毛をしたい・痛みを少なく脱毛したい方におすすめ。",
     },
     {
       href: "/menu#wax",
-      img: "/wax.jpg",
+      img: "/waxmain.jpg",
       title: "ワックス脱毛",
-      p: "",
+      p: "日本人の肌の為に作られた国産高級WAX、「WAX匠道」を使用。匠道専用の痛みを緩和させる毛穴処理など、事前処理をきちんと行う為眠れるWAXといわれるほどリラックスできるのが特徴です。(※個人差あり)また、抜くだけではなく肌に必要な角質は残し、古い角質は取り除くため、ワントーン明るく透明感のある肌に導きます。",
     },
     {
       href: "/menu#LEDwax",
-      img: "/LED.jpg",
+      img: "/wax.jpg",
       title: "W脱毛",
-      p: "",
+      p: "LED脱毛とワックス脱毛の両方施術するメニュー",
     },
     {
       href: "/menu#st",
@@ -51,7 +51,7 @@ const MenuList = () => {
           menulist
         </p>
       </div>
-      <ul className="flex flex-wrap justify-center items-center mt-4 ">
+      <ul className="flex flex-wrap justify-center  mt-4 ">
         {menu.map((menu) => {
           return (
             <li key={menu.title} className="w-hull md:w-1/3 mb-4">
@@ -67,7 +67,7 @@ const MenuList = () => {
                 {menu.title}
               </h3>
 
-              <p className="w-11/12 mx-auto text-xs mb-2">{menu.p}</p>
+              <p className="w-11/12 md:h-[132px] mx-auto text-xs mb-2">{menu.p}</p>
               <Link href={menu.href} className="block md:hidden">
                 <button className="w-11/12 block mx-auto text-sm border border-black rounded-md py-3">
                   詳細はこちら

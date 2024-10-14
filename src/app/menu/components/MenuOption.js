@@ -40,23 +40,23 @@ const MenuOption = () => {
               <p>30分</p>
               <p>&yen;6,000</p>
             </li>
-            <p>炭酸ヘッドスパ</p>
+            <p>・炭酸ヘッドスパ</p>
             <li className="flex justify-between border-b mb-2">
               <p>30分</p>
               <p>&yen;5,000</p>
             </li>
-            <p>スカルプヘッドスパ</p>
+            <p>・スカルプヘッドスパ</p>
             <li className="flex justify-between border-b mb-2">
               <p>30分</p>
               <p>&yen;6,000</p>
             </li>
-            <p>ドライヘッドスパ</p>
+            <p>・ドライヘッドスパ</p>
             <li className="flex justify-between border-b mb-2">
               <p>30分</p>
               <p>&yen;5,000</p>
             </li>
-            <p>オイルプール</p>
-            
+            <p>・オイルプール</p>
+            <p className="text-xs">オイルのプールに浸かっているような新感覚のオイルマッサージ</p>
               <p className="text-right border-b mb-2">&yen;2,000</p>
             
             <p>各延長</p>
